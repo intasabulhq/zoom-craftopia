@@ -1,6 +1,7 @@
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import SiteContent from './SiteContent.jsx'
+import Footer from './Footer.jsx'
 import './index.css'
 import './site.css'
 
@@ -10,5 +11,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <App />
     </section>
     <SiteContent />
+    <Footer />
   </>,
 )
