@@ -1,14 +1,32 @@
-# Zoom Craftopia
+# Laocoön — Bronze and Time
 
-A simple starter website built with HTML, CSS and JavaScript.
+A cinematic scroll-driven experience built with React, Vite, Tailwind CSS, Three.js and Node.js tooling.
+
+## Requirements
+
+- Node.js 18 or newer
+- npm
 
 ## Run locally
 
-1. Download or clone this repository.
-2. Open `index.html` in a web browser.
+```bash
+git pull origin main
+npm install
+npm run dev
+```
 
-## Files
+Open the local URL shown by Vite, usually `http://localhost:5173`.
 
-- `index.html` — page structure
-- `style.css` — website styling
-- `script.js` — interactive behavior
+## Production build
+
+```bash
+npm run build
+npm run preview
+```
+
+## Stack
+
+- React 18
+- Vite 5
+- Tailwind CSS 3
+- Three.js r160
